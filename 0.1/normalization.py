@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 
-global KEY_RESULT_LIST
-
-# verilen komutu küçük harfli yapıp boşlukları silmeli ve sonucu döndürmeli
 def normalize(RESULT):
     RESULT_LIGHT = ["işık", "ışık", "işıkları", "ışıkları"] # ışık objesini tanımak için
 

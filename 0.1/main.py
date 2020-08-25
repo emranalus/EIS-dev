@@ -34,7 +34,7 @@ def listen():
     if RESULT == "kapan":
         sys.exit("Kapanıyor...")
 
-    normalization.normalize(RESULT) # sonucu bilgisayar için daha okunaklı bir hale getir
+    normalization.normalize(RESULT) # anla ve davran kısmı
 
 def main():
     while True:
